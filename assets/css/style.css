@@ -23,6 +23,9 @@ body{
 a{
     color: black;
 }
+a:hover p{
+    color: black;
+}
 
 
 
@@ -282,4 +285,41 @@ header li:hover{
 }
 .s4__a a{
     display: flex;
+}
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__FULL{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 800px;
+}
+.f_tx1{
+    font-size: 14px;
+    color: #353732;
+    margin-top: 5px;
+}
+.footer__FULL span{
+    font-size: 14px;
+    color: #45525B;
+    margin-left: 30px;
+}
+.footer__TxCont{
+    display: flex;
+    margin-top: 30px;
+}
+.footer__TxCont p{
+    font-size: 15px;
+    color: #45525B;
+}
+.footer__TxCont a{
+    margin-right: 20px;
+}
+.footer__TxCont a:last-child{
+    margin-right: 0px;
 }
